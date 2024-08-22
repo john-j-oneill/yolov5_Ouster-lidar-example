@@ -31,8 +31,8 @@ from utils.plots import Annotator, colors, save_one_box
 from utils.torch_utils import select_device, time_sync
 from utils.augmentations import Albumentations, augment_hsv, copy_paste, letterbox, mixup, random_perspective
 
-from ouster import client
-from ouster import pcap
+from ouster.sdk import client
+from ouster.sdk import pcap
 from contextlib import closing
 import logging
 
